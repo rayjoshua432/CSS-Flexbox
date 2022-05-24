@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+// Flex container
+.main {
+    font-size: 30px;
+    height: 100vh;
+    display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap-reverse;
+
+    // Shorthand of flex direction & wrap
+    flex-flow: row nowrap;
+
+    // justify-content: center;
+    // align-items: center;
+
+    // Flex items
+    .section:nth-child(1) {
+        background-color: blue;
+        height: 300px;
+        width: 300px;
+        // items order index based
+        order: 0;
+        //      space modify
+        // flex-grow: 2;
+        //      shrink modify
+        // flex-shrink: 2;
+        //      set the initial length of flex item
+        // flex-basis: 100px;
+        //      Shorthand of flex grow, shrink, and basis
+        flex: 0 2 500px;
+    }
+
+    .section:nth-child(2) {
+        background-color: green;
+        height: 300px;
+        width: 300px;
+        order: 1;
+    }
+
+    .section:nth-child(3) {
+        background-color: yellow;
+        height: 300px;
+        width: 300px;
+        order: 2;
+    }
+
+    .section:nth-child(4) {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+        order: 3;
+    }
+}
+
+    // Differences
+    //     Grid - container base
+    //     Flex - content base

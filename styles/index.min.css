@@ -1,0 +1,2 @@
+html,body{margin:0;padding:0}.main{font-size:30px;height:100vh;display:flex;flex-flow:row nowrap}.main .section:nth-child(1){background-color:blue;height:300px;width:300px;order:0;flex:0 2 500px}.main .section:nth-child(2){background-color:green;height:300px;width:300px;order:1}.main .section:nth-child(3){background-color:#ff0;height:300px;width:300px;order:2}.main .section:nth-child(4){background-color:red;height:300px;width:300px;order:3}
+/*# sourceMappingURL=index.min.css.map */
